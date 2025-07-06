@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ingr.earth | Ecological Impact Platform</title>
+    <meta name="description" content="Tracking environmental health for sustainable futures">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Eco Navigation Bar -->
+    <nav class="eco-nav">
+        <div class="container">
+            <a href="/" class="logo">ingr.earth</a>
+            <div class="nav-links">
+                <a href="#impact">Impact Tracker</a>
+                <a href="#data">Open Data</a>
+                <a href="#solutions">Solutions</a>
+                <a href="#join" class="cta-button">Join Movement</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="eco-hero">
+        <div class="container">
+            <h1>Your <span class="highlight">environmental footprint</span> shapes global health</h1>
+            <p>Join our open network tracking ecological health indicators worldwide</p>
+            <div class="hero-buttons">
+                <a href="#calculator" class="cta-button">Calculate Your Impact</a>
+                <a href="#map" class="secondary-button">View Global Data</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Key Metrics -->
+    <section id="metrics" class="eco-metrics">
+        <div class="container">
+            <div class="metric-grid">
+                <div class="metric-card">
+                    <div class="metric-value" id="co2-metric">12,456</div>
+                    <div class="metric-label">Tons CO₂ Tracked</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value" id="trees-metric">84,201</div>
+                    <div class="metric-label">Trees Planted</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="section-light">
+        <div class="container">
+            <h2>Our Environmental Tools</h2>
+            <div class="eco-features">
+                <div class="feature-card">
+                    <img src="images/air-quality-icon.svg" alt="Air Quality">
+                    <h3>Pollution Tracker</h3>
+                    <p>Real-time PM2.5/CO₂ monitoring</p>
+                </div>
+                <div class="feature-card">
+                    <img src="images/water-icon.svg" alt="Water Health">
+                    <h3>Watershed Health</h3>
+                    <p>Local water quality analytics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carbon Calculator -->
+    <section id="calculator" class="eco-calculator">
+        <div class="container">
+            <h2>Personal Impact Calculator</h2>
+            <form id="carbon-form">
+                <div class="form-group">
+                    <label for="transport">Monthly km traveled:</label>
+                    <input type="number" id="transport">
+                </div>
+                <button type="submit" class="cta-button">Calculate</button>
+            </form>
+            <div id="calculator-results"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="eco-footer">
+        <div class="container">
+            <p>Hosted on 100% renewable energy | <a href="/sustainability">Our Green Policy</a></p>
+            <div class="footer-links">
+                <a href="https://climate.nasa.gov/" target="_blank">NASA Climate Data</a>
+                <a href="https://www.unep.org/" target="_blank">UNEP Partners</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
