@@ -1,0 +1,5 @@
+# .gitignore फाइल में यह एड करें
+node_modules/
+.DS_Store
+.env
+*.log
