@@ -1,0 +1,41 @@
+/* Eco Color Palette */
+:root {
+    --eco-primary: #2E8B57;  /* Sea Green */
+    --eco-secondary: #3AB795; /* Mint */
+    --eco-dark: #1A3A32;      /* Forest */
+    --eco-light: #E8F5E9;     /* Light Mint */
+}
+
+/* Eco Navigation */
+.eco-nav {
+    background: var(--eco-dark);
+    color: white;
+}
+
+.eco-hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('../images/forest-bg.jpg');
+    background-size: cover;
+    color: white;
+}
+
+/* Metrics Cards */
+.eco-metrics {
+    background: var(--eco-light);
+}
+.metric-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+.metric-value {
+    font-size: 2.5rem;
+    color: var(--eco-primary);
+    font-weight: 700;
+}
+
+/* Calculator Styles */
+.eco-calculator {
+    background: var(--eco-light);
+    padding: 3rem 0;
+}
