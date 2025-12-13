@@ -1,0 +1,11 @@
+/* Main CSS Entry */
+
+@import url('https://sjs.ingr.in/crs/cas/*.css');
+@import url('header.css');
+@import url('hero.css');
+@import url('metrics.css');
+@import url('calculator.css');
+@import url('footer.css');
+@import url('utilities.css');
+
+/* Maini CSS Ending */
