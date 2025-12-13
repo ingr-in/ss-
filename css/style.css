@@ -7,11 +7,18 @@
 }
 
 *{
-    width : 100%
-    overflow : scroll;
-    padding : 0;
-    margin : 0;
+    width: 100%;
+    overflow: scroll;
+    padding: 0;
+    margin: 0;
 }
 body{
         background: rgba(0,0,0,0.2);
+        width: 99.99%;
     }
+ nav{
+     overflow: scroll;
+     width: auto;
+     text-align:center;
+     left:0.5px;
+ }
